@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="9.0.0" />
+      <PackageReference Include="System.Data.OleDb" Version="4.7.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HBSIS.Padawan.Produtos.Domain\HBSIS.Padawan.Produtos.Domain.csproj" />
+      <ProjectReference Include="..\HBSIS.Padawan.Produtos.Infra\HBSIS.Padawan.Produtos.Infra.csproj" />
+    </ItemGroup>
+
+</Project>
